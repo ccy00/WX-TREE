@@ -9,8 +9,8 @@
   text-align:left;
   display: flex;
   justify-content: flex-start;
-  vertical-align: center;
-  line-height: 110rpx;
+  align-items: center;
+
 }
 
 page
@@ -20,8 +20,11 @@ page
 
 .icon
 {
-  margin-left: 20rpx;
-  line-height: 18rpx;
+  display: inline-flex;
+  margin-left: 15rpx;
+    height: 110rpx;
+    justify-content: center;
+    width: 200rpx;
   
 }
 
@@ -29,7 +32,15 @@ page
 {
   text-align: center;
   vertical-align: center;
+  margin-left: -30rpx;
 }
 
 
 
+.jt
+{
+  width: 40rpx;
+  height:60rpx;
+  position: absolute;
+  right: 20rpx;
+}

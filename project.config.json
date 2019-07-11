@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -63,6 +63,41 @@
 					"id": 4,
 					"name": "c3",
 					"pathName": "pages/news/news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "404",
+					"pathName": "pages/404/404",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "publish",
+					"pathName": "pages/publish/publish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pl",
+					"pathName": "pages/pl/pl",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "dz",
+					"pathName": "pages/dz/dz",
 					"query": "",
 					"scene": null
 				}

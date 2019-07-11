@@ -12,7 +12,6 @@
 .ictext
 {
 
-  width:36rpx;
 height:18rpx;
 font-size:32rpx;
 font-family:SourceHanSansCN-Regular;
@@ -20,4 +19,12 @@ font-weight:400;
 color:rgba(156,162,187,1);
 line-height:40rpx;
   padding-right: 30rpx;
+}
+
+.icview
+{
+  display: inline-flex;
+  align-items: center;
+  margin-top: -10rpx;
+
 }

@@ -1,0 +1,35 @@
+  <view class="swtop">
+     <view class="sw">
+       <c-tx tx="/img/ww.png" name="生命在于折腾" time="09/22/09/22"> </c-tx>
+      <c-con str="{{str}}" cimg1="/img/cimg1.jpg" cimg2="/img/cimg2.jpg"                              cimg3="/img/cimg3.jpg" cimg4="/img/cimg4.jpg"
+          cimg5="/img/cimg5.jpg" cimg6="/img/cimg6.jpg"
+          cimg7="/img/cimg7.jpg" cimg8="/img/cimg8.jpg"
+        cimg9="/img/cimg9.jpg" > </c-con>
+       
+  
+     <view class="icview">
+            <c-icon icon='/img/pl.png' ictext="100" class="pl"> </c-icon>
+           <c-icon icon='/img/good1.png' ictext="100" > </c-icon>
+     </view>
+
+     </view>
+</view>
+
+<block wx:for="{{plr}}"  wx:for-index="idx" >
+<view class='cpl sw'>
+    <c-tx tx="/img/ww.png" name="{{item.plname}}" time="09/22/09/22"> </c-tx>
+      <c-con str="{{item.plstr}}"  > </c-con>
+</view>
+</block >
+
+<view class='white'></view>
+
+<view class='fbplview'>
+    <view class='fbpl'>
+        <image src='/img/fb.png'></image>
+        <input type='text' placeholder='写评论 '></input>
+        
+    </view>
+    <button>发表</button>
+ </view>
+ 

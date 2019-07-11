@@ -7,10 +7,10 @@
   right: 30rpx; */
   margin-left: 125rpx;
   margin-right: 30rpx;
-
+  margin-bottom: 50rpx;
   font-size: 26rpx;
   color:rgba(102,102,102,1);
-   line-height:44rpx;
+  
    text-align: left;
    margin-top: -40rpx;
    

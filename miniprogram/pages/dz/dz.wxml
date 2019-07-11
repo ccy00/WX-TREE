@@ -1,0 +1,24 @@
+<c-topbar text1="点赞我的" text2="我的点赞" bindtap="num"  img1="{{img1}}" img2='{{img2}}' />
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300"  easing-function="linear" >
+  <swiper-item>
+  
+  <c-dzpl img="/img/cimg1.jpg"></c-dzpl>
+  </swiper-item> 
+
+
+
+
+
+
+  <swiper-item><view class='swiper_con'>welcome come to 热点</view></swiper-item>
+
+</swiper>
+
+
+
+
+
+
+
+

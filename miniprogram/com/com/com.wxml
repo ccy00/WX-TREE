@@ -3,16 +3,16 @@
           <text  class="text" >
             {{str}}
           </text>
-          <image src="{{cimg1}}"></image>
-          <image src="{{cimg2}}" class="cimg"></image>
-          <image src="{{cimg3}}"></image>
+          <image src="{{cimg1}}" wx-if="{{cimg1}}"></image>
+          <image src="{{cimg2}}" class="cimg" wx-if="{{cimg2}}"></image>
+          <image src="{{cimg3}}" wx-if="{{cimg3}}"></image>
 
-          <image src="{{cimg4}}"></image>
-          <image src="{{cimg5}}" class="cimg"></image>
-          <image src="{{cimg6}}"></image>
+          <image src="{{cimg4}}" wx-if="{{cimg4}}"></image>
+          <image src="{{cimg5}}" class="cimg" wx-if="{{cimg5}}"></image>
+          <image src="{{cimg6}}" wx-if="{{cimg6}}"></image>
 
-          <image src="{{cimg7}}"></image>
-          <image src="{{cimg8}}" class="cimg"></image>
-          <image src="{{cimg9}}"></image>
+          <image src="{{cimg7}}" wx-if="{{cimg7}}"></image>
+          <image src="{{cimg8}}" class="cimg" wx-if="{{cimg8}}"></image>
+          <image src="{{cimg9}}" wx-if="{{cimg9}}"></image>
 
         </view>

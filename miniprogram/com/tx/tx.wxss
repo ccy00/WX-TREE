@@ -1,4 +1,12 @@
 /* com/tx/tx.wxss */
+
+
+.sw
+{
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+
+}
 .tx
 {
 

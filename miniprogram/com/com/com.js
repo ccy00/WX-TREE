@@ -29,7 +29,7 @@ Component({
 
     cimg4: {
       type: String,
-      value: 'x'
+      value: ''
     },
 
 

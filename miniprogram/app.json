@@ -3,7 +3,11 @@
     "pages/promiss/promiss",
     "pages/index/index",
     "pages/news/news",
-    "pages/publish/publish"
+    "pages/publish/publish",
+    "pages/404/404",
+    "pages/detail/detail",
+    "pages/pl/pl",
+    "pages/dz/dz"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -14,12 +18,12 @@
   },
   "tabBar": {
     "color": "#9CA2BB",
-   "selectedColor":"#26ACF5",
+    "selectedColor": "#26ACF5",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "树洞",
-        "iconPath":"/img/sdtab1.png",
+        "iconPath": "/img/sdtab1.png",
         "selectedIconPath": "/img/sdtab2.png"
       },
       {

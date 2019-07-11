@@ -1,0 +1,16 @@
+<!--miniprogram/pages/404/404.wxml-->
+<c-topbar text1="树洞广场" text2="我的树洞" bindtap="num"  img1="{{img1}}" img2='{{img2}}' />
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300"  easing-function="linear" >
+  <swiper-item>
+  
+  </swiper-item> 
+
+
+
+
+
+
+  <swiper-item><view class='swiper_con'>welcome come to 热点</view></swiper-item>
+
+</swiper>

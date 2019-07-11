@@ -1,0 +1,64 @@
+/* pages/publish/publish.wxss */
+@import "../index/index.wxss";
+
+.swtop
+{
+  margin-top: 30rpx;
+  border-top:  #F9F9F9 30rpx solid;
+  border-bottom:  #F9F9F9 30rpx solid;
+}
+
+.cpl
+{
+  border-bottom: #F9F9F9 8rpx solid;
+}
+
+.fbpl
+{
+margin-left: 56rpx;
+  background-color:white;
+  width: 75%;
+  height: 100rpx;
+  display: inline-flex;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.fbpl image
+{
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 36rpx;
+  margin-left: 36rpx;
+
+}
+
+.fbpl input
+{
+  display: inline-block;
+}
+
+.fbplview
+{
+  height: 140rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#F9F9F9;
+
+  position: fixed;
+  bottom: 0rpx;
+ 
+}
+.fbplview button
+{
+  display: inline-block;
+ text-align: left;
+ color: rgb(23, 182, 235);
+}
+
+.white
+{
+  height: 100rpx;
+}

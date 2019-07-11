@@ -4,12 +4,14 @@
 {
   display: inline-block;
  font-size: 30rpx;
-  width: 40rpx;
-  height: 40rpx;
+  width: 35rpx;
+  height: 35rpx;
   background-color: red;
+  line-height: 35rpx;
   color: white;
   border-radius: 50%;
   text-align: center;
-  vertical-align: center;
+  font-weight: bold;
+ 
 
 }

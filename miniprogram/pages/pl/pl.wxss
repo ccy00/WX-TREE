@@ -1,0 +1,9 @@
+/* miniprogram/pages/pl/pl.wxss */
+.swiper{width: 100%;}
+
+.sw
+{
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+
+}

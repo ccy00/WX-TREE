@@ -1,0 +1,13 @@
+<view class='dzplview'>
+  <view class='time'>3分钟前</view>
+  <view class='pl'>
+    <view class='name'>cc:</view>
+    <view class='plstr'>我希望这个世界能多一些善良，我希望我能时不时看见你们的喜讯，我希望你们热爱自己的生命。
+    </view>
+  </view>
+
+  <view class='myview'>
+   <image class='tp' src='{{img}}' wx-if="{{img}}"></image>
+   <text class='mystr'>大小不需要统一、图片与图片之间也不一定要严格对齐，效果比较灵活，设计感较强，   常用于杂志排版中。大小不需要统一、图片与图片之间也不一定要严格对齐，效果比较灵活，设计感较强，   常用于杂志排版中。</text>
+  </view>
+</view>

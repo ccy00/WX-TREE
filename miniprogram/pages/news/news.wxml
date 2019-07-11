@@ -3,5 +3,13 @@
 <button class="button">
 <c-icon icon="/img/pl.png" ictext="评论" class="icon"/>
 <c-red num="9" class="red"> </c-red>
+<image src='/img/jt.png' class='jt'></image>
+</button>
+
+
+<button class="button">
+<c-icon icon="/img/good1.png" ictext="点赞" class="icon"/>
+<c-red num="9" class="red"> </c-red>
+<image src='/img/jt.png' class='jt'></image>
 </button>
 

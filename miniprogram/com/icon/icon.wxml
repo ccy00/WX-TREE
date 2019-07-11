@@ -1,5 +1,6 @@
 <!--com/icon/icon.wxml-->
-
+<view  class='icview'>
  <image src="{{icon}}" class="icon"></image>
  <text class="ictext">{{ictext}}</text>
 
+</view>
