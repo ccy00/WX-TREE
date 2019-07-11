@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+
+
+.swiper{width: 100%;}
+
+.sw
+{
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+
+}
+
+.icview
+{
+  text-align: right;
+}
+
+
+.pl
+{
+  padding-right: 55rpx;
+}
+
+.swtop
+{
+  padding-bottom: 20rpx;
+      border-bottom: 50rpx #F8F8F8 solid;
+}

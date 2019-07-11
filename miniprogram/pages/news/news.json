@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "c-icon": "/com/icon/icon",
+    "c-red": "/com/red/red"
+
+  }
+}

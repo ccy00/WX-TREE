@@ -1,0 +1,45 @@
+/* com/tx/tx.wxss */
+.tx
+{
+
+  width:100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+ 
+}
+
+.txview
+{
+  
+  display: flex;
+
+  align-items: center;
+ 
+  
+}
+
+.name,.time
+{
+  line-height: 40rpx;
+  vertical-align: center;
+}
+.name{
+  padding-left: 22rpx;
+  font-size: 40rpx;
+
+ font-weight:400;
+ color:rgba(51,51,51,1);
+
+
+}
+
+.time
+{
+  position: absolute;
+  right: 30rpx;
+font-size:20rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(156,162,187,1);
+
+}

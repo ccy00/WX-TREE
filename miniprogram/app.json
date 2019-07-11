@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/promiss/promiss",
+    "pages/index/index",
+    "pages/news/news",
+    "pages/publish/publish"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9CA2BB",
+   "selectedColor":"#26ACF5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "树洞",
+        "iconPath":"/img/sdtab1.png",
+        "selectedIconPath": "/img/sdtab2.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "/img/zjtab1.png",
+        "selectedIconPath": "/img/zjtab2.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "/img/xstab1.png",
+        "selectedIconPath": "/img/xstab2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

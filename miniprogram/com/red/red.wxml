@@ -1,0 +1,2 @@
+<!--com/red/red.wxml-->
+<text class="num">{{num}}</text>

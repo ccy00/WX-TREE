@@ -1,0 +1,18 @@
+<!--com/con/com.wxml-->
+ <view class="con">
+          <text  class="text" >
+            {{str}}
+          </text>
+          <image src="{{cimg1}}"></image>
+          <image src="{{cimg2}}" class="cimg"></image>
+          <image src="{{cimg3}}"></image>
+
+          <image src="{{cimg4}}"></image>
+          <image src="{{cimg5}}" class="cimg"></image>
+          <image src="{{cimg6}}"></image>
+
+          <image src="{{cimg7}}"></image>
+          <image src="{{cimg8}}" class="cimg"></image>
+          <image src="{{cimg9}}"></image>
+
+        </view>

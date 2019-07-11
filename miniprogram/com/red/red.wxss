@@ -1,0 +1,15 @@
+/* com/red/red.wxss */
+
+.num
+{
+  display: inline-block;
+ font-size: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+
+}

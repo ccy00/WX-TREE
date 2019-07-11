@@ -1,0 +1,5 @@
+<!--com/icon/icon.wxml-->
+
+ <image src="{{icon}}" class="icon"></image>
+ <text class="ictext">{{ictext}}</text>
+

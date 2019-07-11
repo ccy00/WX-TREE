@@ -1,0 +1,33 @@
+<!--pages/index/index.wxml-->
+
+<c-topbar text1="树洞广场" text2="我的树洞" bindtap="num"  img1="{{img1}}" img2='{{img2}}' />
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300"  easing-function="linear" >
+  <swiper-item>
+  <view class="swtop">
+     <view class="sw">
+          <c-tx tx="/img/ww.png" name="生命在于折腾" time="09/22/09/22"> </c-tx>
+      <c-con str="{{str}}" cimg1="/img/cimg1.jpg" cimg2="/img/cimg2.jpg" cimg3="/img/cimg3.jpg" cimg4="/img/cimg4.jpg"
+cimg5="/img/cimg5.jpg" cimg6="/img/cimg6.jpg"
+cimg7="/img/cimg7.jpg" cimg8="/img/cimg8.jpg"
+cimg9="/img/cimg9.jpg" > </c-con>
+       
+  
+     <view class="icview">
+            <c-icon icon='/img/pl.png' ictext="100" class="pl"> </c-icon>
+           <c-icon icon='/img/good1.png' ictext="100" > </c-icon>
+     </view>
+
+     </view>
+
+</view>
+  </swiper-item> 
+
+
+
+
+
+
+  <swiper-item><view class='swiper_con'>welcome come to 热点</view></swiper-item>
+
+</swiper>

@@ -1,0 +1,30 @@
+<!--com/topbar/topbar.wxml-->
+<!-- 
+<view class='topTabSwiper'>
+    <view class='tab {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>
+    <image src='{{img1}}' class='topbarimg'></image>
+       <text>{{text1}}</text>
+    </view>
+
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>
+    <image src='{{img2}}' class='topbarimg'></image>
+           <text>{{text2}}</text>
+    </view>
+     
+   
+</view> -->
+
+<view class='topTabSwiper'>
+
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>
+    <image src='{{img1}}' class='topbarimg aa' data-current = "0" bindtap='checkCurrent'></image>
+    {{text1}}</view>
+
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>
+    <image src='{{img2}}' class='topbarimg' data-current = "1" bindtap='checkCurrent'></image>
+    {{text2}}</view>
+   
+</view>
+
+
+

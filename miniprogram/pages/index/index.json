@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+
+    "c-topbar":"/com/topbar/topbar",
+    "c-tx":"/com/tx/tx",
+    "c-con": "/com/com/com",
+    "c-icon": "/com/icon/icon"
+  }
+}

@@ -1,0 +1,38 @@
+/* miniprogram/pages/index/index.wxss */
+page{
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+image
+{
+
+  width: 164rpx;
+  height: 164rpx;
+}
+
+.view1
+{
+  height: 280rpx;
+    display: flex;
+  flex-direction:column;
+  align-items: center;
+    justify-content: space-around;
+}
+text
+{
+  color:#313EC9;
+}
+
+button
+{
+  background-color: #313EC9;
+  color: white;
+  width: 70%;
+  border-radius: 40rpx;
+
+
+}

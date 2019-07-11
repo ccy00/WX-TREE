@@ -1,0 +1,8 @@
+<!--miniprogram/pages/index/index.wxml-->
+ <view>
+  <view class='view1'>
+    <image src='../../img/tx.png'></image>
+  </view>
+  <text>需要您的授权才能使用哦</text>
+ </view>
+ <button>微信登陆授权</button>

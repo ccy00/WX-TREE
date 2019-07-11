@@ -1,0 +1,7 @@
+<!--com/tx/tx.wxml-->
+<view class='txview'>
+     <image src='{{tx}}' class='tx' mode='aspectFit'></image>
+    <text class='name'>{{name}}</text>
+    <text class='time'>{{time}}</text>
+
+</view>

@@ -1,0 +1,37 @@
+/* com/con/com.wxss */
+
+.con
+{
+  /* position: absolute;
+  left: 150rpx;
+  right: 30rpx; */
+  margin-left: 125rpx;
+  margin-right: 30rpx;
+
+  font-size: 26rpx;
+  color:rgba(102,102,102,1);
+   line-height:44rpx;
+   text-align: left;
+   margin-top: -40rpx;
+   
+}
+
+.con image
+{
+  width: 158rpx;
+  height: 158rpx;
+  margin-top: 10rpx;
+
+}
+
+.cimg
+{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+
+}
+
+ .text{
+    
+   
+} 
