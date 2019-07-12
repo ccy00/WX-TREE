@@ -1,4 +1,4 @@
-// com/con/com.js
+ // com/con/com.js
 Component({
   /**
    * 组件的属性列表

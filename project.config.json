@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 10,
 			"list": [
 				{
 					"id": -1,
@@ -99,6 +99,12 @@
 					"name": "dz",
 					"pathName": "pages/dz/dz",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "授权",
+					"pathName": "pages/promiss/promiss",
 					"scene": null
 				}
 			]

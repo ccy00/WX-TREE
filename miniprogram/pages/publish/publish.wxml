@@ -1,0 +1,49 @@
+<view class="publish"> 
+    <textarea placeholder="'   请填写话题内容（不少于10个字)"      class="textarea"></textarea>
+
+<view id="tpview">
+   <view class="tj">添加图片 </view>
+   <view class="dx">大小不超过200K，图片最多不超过9张</view>
+  <view class='ss'>
+   <view class='tpan' >
+     <image src='/img/xj.png' class='xj'> </image>
+     <text class='text'>添加图片</text>
+   </view>
+   <view class='tpcl'>
+     <image src='/img/cimg1.jpg'  id='mytp'></image>
+     <button class='x'>x</button>
+   </view>
+
+   <view class='tpcl'>
+     <image src='/img/cimg1.jpg'  id='mytp'></image>
+     <button class='x'>x</button>
+   </view>
+
+   <view class='tpcl'>
+     <image src='/img/cimg1.jpg'  id='mytp'></image>
+     <button class='x'>x</button>
+   </view>
+
+   <view class='tpcl'>
+     <image src='/img/cimg1.jpg'  id='mytp'></image>
+     <button class='x'>x</button>
+   </view>
+
+   </view>
+</view>
+
+<view class='fb'>
+  <view>发布到</view>
+<radio-group >
+  <label>
+    <radio value="all" color='skyblue'>树洞广场和我的树洞，对所有人可见。</radio >
+  </label>
+    <label>
+    <radio value="my"  color='skyblue'>我的树洞，仅对自己可见。</radio >
+  </label>
+
+
+</radio-group>
+</view>
+
+</view>

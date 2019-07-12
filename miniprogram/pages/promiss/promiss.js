@@ -1,4 +1,5 @@
 // miniprogram/pages/index/index.js
+var app = getApp();
 Page({
 
   /**
@@ -12,7 +13,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.cloud.callFunction({
+      name: 'login',
+      complete: res => {
+        console.log('callFunction test result: ', res)
+        app.globalData.openId = res.result.openid;
+        console.log(res.result.openid)
+      }
+    })
   },
 
   /**
@@ -62,5 +70,9 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  pro()
+  {
+    wx.switchTab({ url: '../index/index' })
   }
 })

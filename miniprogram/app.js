@@ -15,7 +15,8 @@ App({
    
   globalData:{
 
-    currentData:0
+    currentData:0,
+    openId:''
 
     }
 })
