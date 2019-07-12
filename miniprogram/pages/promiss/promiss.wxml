@@ -5,4 +5,4 @@
   </view>
   <text>需要您的授权才能使用哦</text>
  </view>
- <button bindtap='pro' open-type='getUserInfo'>微信登陆授权</button>
+ <button open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">微信登陆授权</button>

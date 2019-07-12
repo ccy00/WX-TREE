@@ -10,13 +10,31 @@ App({
         traceUser: true,
       })
     }
+
+    wx.cloud.callFunction({
+      name: 'login',
+      complete: res => {
+        this.globalData.id = res.result.openid;
+        if (this.openIdReadyCallback) {
+          this.openIdReadyCallback(res)
+        }
+
+        console.log("app.js" + this.globalData.id);
+      }
+
+    })
  
+
   },
    
   globalData:{
 
     currentData:0,
-    openId:''
+    id:"",
+    name:"",
+    img:""
 
-    }
+    },
+
+  
 })
